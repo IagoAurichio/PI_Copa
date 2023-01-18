@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-x: hidden;
+}
+header img{
+    width: 100px;
+    margin: 10px;
+    margin-left: 5%;
+    
+
+ 
+}
+header .navegacao{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 5%;
+    word-spacing: 10px;
+    
+
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+.titulo{
+    color: white;
+    font-size: 90px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 12px;
+    display: inline-block;
+    padding-top: 10%;
+}
+
+.titulo p{
+    margin-top: 100px;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+td img{
+    width: 30px;
+}
+table{
+    margin: 60px;
+    margin-left: 150px;
+    border-bottom: 2px solid white;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td{ 
+    border-bottom: 2% solid white;
+    border-top: 2px solid white;
+    padding: 15px;
+    color: white;
+    width: 33%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr{
+    border-bottom: 2px solid white;
+}
+
+th{
+    font-size: 35px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(65, 1, 20);
+    color: white;
+    padding: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.espaçamento{
+    height: 240px;
+}
+footer{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+a:hover{
+    color: #9E2129;
+}
+
+.pag-atual{
+    color: #9E2129;
+}
+
+.tabela1, .tabela2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+

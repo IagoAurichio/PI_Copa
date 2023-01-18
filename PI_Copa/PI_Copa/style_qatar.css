@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.cabecalho img{
+    width: 100px;
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.cabecalho .navegacao{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 5%;
+    word-spacing: 10px;
+}
+
+.navegacao .pag-atual{
+    color: #9E2129;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+    color: #9E2129;
+}
+a:active{
+    color: #9E2129;
+}
+
+.qatar h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div img{
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.qatar{
+    text-align: center;
+    margin-top: 80px;
+}
+
+ul li{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    margin-top: 100px;
+}
+
+.estadios h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.estadios img{
+    width: 300px;
+    height: 200px;
+}
+
+.estadios p{
+    display: inline-block;
+    color: white;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.al-bayt, .khalifa-internacional{
+   display:inline-block;
+   margin-top: 30px;
+   padding-right: 20px;
+}
+
+.al-janoub, .ahmad-bin-ali{
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.al-thumama, .education-city{
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 20px;
+}
+
+.estadio-974, .lusail{
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 20px;
+} 
+
+.estadios{
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+

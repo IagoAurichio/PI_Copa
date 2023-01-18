@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.cabecalho img{
+    width: 100px;
+    margin: 10px;
+    margin-left: 5%;
+}
+.cabecalho .navegacao{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 5%;
+    word-spacing: 10px;
+}
+.navegacao .pag-atual{
+    color: #9E2129;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navegacao a:hover{
+    color: #9E2129;
+}
+a:active{
+    color: #9E2129;
+}
+div h1 {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bandeiras img {
+    width: 110px;
+    height: 70px;   
+}
+.bandeiras a {
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+.qatar, .equador, .senegal, .holanda{
+    display: inline-block;
+}
+.grupoA{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.inglaterra, .ira, .usa, .wales{
+    display: inline-block;
+}
+.grupoB{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+} 
+.argentina, .arabia, .mexico, .polonia{
+    display: inline-block;
+}
+.grupoC{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.franca, .australia, .dinamarca, .tunisia{
+    display: inline-block;
+}
+.grupoD{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.espanha, .costarica, .alemanha, .japao{
+    display: inline-block;
+}
+.grupoE{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.belgica, .canada, .marrocos, .croacia{
+    display: inline-block;
+}
+.grupoF{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.brasil, .servia, .suica, .camaroes{
+    display: inline-block;
+}
+.grupoG{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+.portugal, .gana, .uruguai, .coreia{
+    display: inline-block;
+}
+.grupoH{
+    max-width: 50%;
+    border: 5px solid #9E2129;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+p{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+footer{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+footer p{
+    font-weight: normal;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

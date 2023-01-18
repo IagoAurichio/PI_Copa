@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.cabecalho img{
+    width: 100px;   
+    margin: 10px;
+    margin-left: 5%;
+}
+
+.cabecalho .navegacao{
+    float: right;
+    margin: 20px;
+    margin-top: 40px;
+    margin-right: 5%;   
+    word-spacing: 10px;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navegacao .pag-atual{
+    color: #9E2129;
+}
+a:hover{
+    color: #9E2129;
+}
+a:active{
+    color: #9E2129;
+}
+:root{
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-texto: 'Roboto Condensed','copa1', arial, sans-serif;
+    --fonte-destaque: 'copa2', arial, sans-serif;
+
+    --cor00: rgba(160, 12, 54, 0.233);
+    --cor0: rgb(158, 12, 54);
+    --cor1: rgb(124, 7, 39);
+    --cor2: rgb(96, 3, 30);
+    --cor3: rgb(65, 1, 20);
+    --cor4: rgb(43, 0, 12);
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 700px;
+    font-family: 'Segoe UI', 'sans-serif';
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-family: var(--fonte-texto)'
+    
+}
+
+th {
+    background-color: var(--cor0);
+    color: white;
+    border: 1px solid white ;
+    width: 20px;
+    padding: 5px;
+}
+
+td {
+    border-bottom: 1px solid white;
+    border-right: solid;
+    padding: 5px;
+    color: white ;
+
+}
+
+td img {
+    display: inline-block;
+    vertical-align: bottom;
+    
+}
+
+.bandeira {
+    width: 180px;
+}
+
+.num {
+    text-align: center;
+}
+
+#borda1, #borda2, #borda3, #borda4 {
+    border-left: 1  px solid white  ;
+}
+body {
+    background-color: var(--cor00);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));    
+    color: white;
+    font-family: var(--fonte-texto);
+    padding: 10px;
+}
+header nav {
+    text-align: center;
+
+}
+
+nav a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: var(--cor0);
+    transition-duration: 0.5s;
+}
+
+main {
+    background-color: black;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+main h1 {
+    font-family: var(--fonte-texto);
+    
+}
+
+main h2 {
+    font-family:var(--fonte-texto);
+    font-weight: lighter;
+    padding: 10px;
+}
+
+main h3 {
+    font-family:var(--fonte-texto);
+    text-align: center;
+    padding-top: 50px;
+}
+
+main #jogos {
+    text-align: left;
+    padding: 10px;
+}
+
+article {
+    padding-top: 10px;
+}
+
+article p {
+    font-family: var(--fonte-texto);
+    padding: 10px;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+article p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article p > a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+
+
+section p {
+    font-family:var(--fonte-texto);
+    font-size: 1.2em;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+
