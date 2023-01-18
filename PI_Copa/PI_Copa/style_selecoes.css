@@ -41,95 +41,61 @@ div h1 {
     width: 110px;
     height: 70px;   
 }
-.bandeiras a {
+.bandeiras h1{
+    margin-top: 180px;
+}
+.grupoA a, .grupoB a, .grupoC a, .grupoD a, .grupoE a, .grupoF a, .grupoG a, .grupoH a {
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     width: 160px;
     font-size: 15px;
     text-align: center;
     padding: 5px;
+    justify-content: space-between;
 }
+
 .qatar, .equador, .senegal, .holanda{
     display: inline-block;
 }
-.grupoA{
-    max-width: 50%;
+.grupoA, .grupoB, .grupoC, .grupoD, .grupoE, .grupoF, .grupoG, .grupoH{
+    max-width: 38%;
     border: 5px solid #9E2129;
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px;
     text-align: center;
 }
+.grupoA a img, .grupoB a img, .grupoC a img, .grupoD a img, .grupoE a img, .grupoF a img, .grupoG a img, .grupoH a img{
+    margin: 0 auto;
+}
+
 .inglaterra, .ira, .usa, .wales{
     display: inline-block;
 }
-.grupoB{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-} 
+
 .argentina, .arabia, .mexico, .polonia{
     display: inline-block;
-}
-.grupoC{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
 }
 .franca, .australia, .dinamarca, .tunisia{
     display: inline-block;
 }
-.grupoD{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-}
+
 .espanha, .costarica, .alemanha, .japao{
     display: inline-block;
 }
-.grupoE{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-}
+
 .belgica, .canada, .marrocos, .croacia{
     display: inline-block;
 }
-.grupoF{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-}
+
 .brasil, .servia, .suica, .camaroes{
     display: inline-block;
 }
-.grupoG{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-}
+
 .portugal, .gana, .uruguai, .coreia{
     display: inline-block;
 }
-.grupoH{
-    max-width: 50%;
-    border: 5px solid #9E2129;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 10px;
-}
+
 p{
     font-size: 1.5em;
     font-weight: bold;
@@ -149,4 +115,11 @@ footer p{
     text-align: center;
     padding-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media (max-width: 1200px) {
+    .grupoA, .grupoB, .grupoC, .grupoD, .grupoE, .grupoF, .grupoG, .grupoH {
+        max-width: 50% !important;
+    }
 }
