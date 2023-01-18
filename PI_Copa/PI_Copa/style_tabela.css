@@ -128,7 +128,6 @@ nav a:hover {
 
 main {
     background-color: black;
-    max-width: 800px;
     padding: 20px;
     margin: auto;
     margin-top: 10px;
@@ -199,7 +198,7 @@ section p {
 footer p{
     color: white;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
